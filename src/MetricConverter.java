@@ -17,7 +17,7 @@ public class MetricConverter {
                 }
             } else {
                 System.out.println("Invalid input. Enter a positive, numerical value.");
-                in.nextLine();
+                in.nextLine(); //clears the invalid input (negatives, letters, etc.)
             }
         } while (!done);
 
